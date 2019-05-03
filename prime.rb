@@ -4,11 +4,7 @@ def prime?(num)
     false
   else
     (2..num-1).to_a.all? do |divider|
-      
-  end
-    true
+      num % divider != 0
   end
 end 
-
-num %  = 0
 
